@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f1e7;
+    color: #6b4f3b;
+    text-align: center;
+}
+
+header {
+    background: #e6d3c1;
+    padding: 15px;
+}
+
+header img.img {
+    width: 90px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6b4f3b;
+    font-weight: bold;
+}
+
+nav li img {
+    width: 30px;
+    margin: 5px;
+}
+
+section {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+button {
+    background: #c49a6c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a67c52;
+}
+
+
+.contact {
+    background: white;
+    border-radius: 15px;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 12px;
+    border: 1px solid #d8c0aa;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.contact textarea {
+    resize: none;
+    height: 120px;
+}
+
+
+footer {
+    background: #e6d3c1;
+    padding: 45px 60px 20px;
+    margin-top: 40px;
+    display: flex;    
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-column h3 {
+    font-size: 34px;
+    color: #6b4f3b;
+    margin-bottom: 15px;
+}
+
+.footer-column h4 {
+    font-size: 22px;
+    color: #6b4f3b;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    color: #6b4f3b;
+    font-size: 16px;
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.socials {
+    margin-top: 18px;
+}
+
+.socials a {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    background: #c49a6c;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    margin: 0 5px;
+}
+
+.socials img {
+    width: 18px;
+    vertical-align: middle;
+}
+
+.copy {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #c49a6c;
+    font-size: 14px;
+    color: #6b4f3b;
+}
