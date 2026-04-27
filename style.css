@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
     background: #f8f1e7;
     color: #6b4f3b;
@@ -7,16 +8,17 @@ body {
 
 header {
     background: #e6d3c1;
-    padding: 15px;
+    padding: 20px;
 }
 
-header img.img {
+.logo {
     width: 90px;
 }
 
 nav ul {
     list-style: none;
-    margin: 10px 0;
+    padding: 0;
+    margin: 15px 0;
 }
 
 nav ul li {
@@ -30,36 +32,91 @@ nav a {
     font-weight: bold;
 }
 
-nav li img {
+.nav-socials {
+    margin-top: 10px;
+}
+
+.nav-socials img {
     width: 30px;
-    margin: 5px;
+    margin: 0 5px;
 }
 
 section {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 30px auto;
     padding: 20px;
+}
+
+.hero img {
+    width: 320px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.about,
+.facts,
+.process,
+.contact {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.product h3 {
+    margin-top: 15px;
+}
+
+.price {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0;
 }
 
 button {
     background: #c49a6c;
     color: white;
     border: none;
-    padding: 12px 20px;
-    border-radius: 10px;
+    padding: 12px 22px;
+    border-radius: 12px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 button:hover {
     background: #a67c52;
 }
 
+.step {
+    margin: 20px 0;
+}
 
 .contact {
-    background: white;
-    border-radius: 15px;
     max-width: 600px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .contact form {
@@ -72,71 +129,49 @@ button:hover {
 .contact textarea {
     padding: 12px;
     border: 1px solid #d8c0aa;
-    border-radius: 10px;
+    border-radius: 12px;
     font-size: 16px;
 }
 
 .contact textarea {
     resize: none;
-    height: 120px;
+    height: 130px;
 }
-
 
 footer {
     background: #e6d3c1;
-    padding: 45px 60px 20px;
     margin-top: 40px;
-    display: flex;    
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
     gap: 40px;
-    text-align: center;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
-.footer-column h3 {
-    font-size: 34px;
-    color: #6b4f3b;
+.footer-box {
+    max-width: 220px;
+}
+
+.footer-box h3,
+.footer-box h4 {
     margin-bottom: 15px;
 }
 
-.footer-column h4 {
-    font-size: 22px;
-    color: #6b4f3b;
-    margin-bottom: 15px;
-}
-
-.footer-column p {
-    color: #6b4f3b;
-    font-size: 16px;
+.footer-box p {
     margin: 8px 0;
-    line-height: 1.6;
 }
 
 .socials {
-    margin-top: 18px;
-}
-
-.socials a {
-    display: inline-block;
-    width: 38px;
-    height: 38px;
-    background: #c49a6c;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 38px;
-    margin: 0 5px;
+    margin-top: 15px;
 }
 
 .socials img {
-    width: 18px;
-    vertical-align: middle;
+    width: 28px;
+    margin: 0 5px;
 }
 
 .copy {
-    grid-column: 1 / -1;
-    text-align: center;
-    margin-top: 25px;
-    padding-top: 15px;
-    border-top: 1px solid #c49a6c;
+    width: 100%;
+    margin-top: 20px;
     font-size: 14px;
-    color: #6b4f3b;
 }

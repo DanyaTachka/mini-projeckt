@@ -1,97 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dolce Boost
-    </title>
+    <title>Dolce Boost</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <header>
-        <a class="img" href="index.html"><img class="img" src="./imges/logo.jpg" alt="logo"></a>
+        <a href="index.html">
+            <img class="logo" src="./imges/logo.jpg" alt="logo">
+        </a>
+
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contacts</a></li>
             </ul>
-            <li><a><img src="./imges/youtube.png" alt="youtube"></a></li>
-            <li><a><img src="./imges/netflix.png" ALT="netflix"></a></li>
-            <li><a><img src="./imges/tiktok.png"></a></li>
+
+            <div class="nav-socials">
+                <a href="https://youtube.com" target="_blank">
+                    <img src="./imges/youtube.png" alt="youtube">
+                </a>
+
+                <a href="https://netflix.com" target="_blank">
+                    <img src="./imges/netflix.png" alt="netflix">
+                </a>
+
+                <a href="https://tiktok.com" target="_blank">
+                    <img src="./imges/tiktok.png" alt="tiktok">
+                </a>
+            </div>
         </nav>
     </header>
+
     <main>
-        <section class="hero">
-            <p>хз что тут писать</p>
+
+        <section class="hero" id="home">
+            <p>Відчуй справжній смак Італії з кожною ложечкою.</p>
+
             <h1>Тірамісу — коли десерт стає емоцією</h1>
-            <p>Унікальні факти про терамису:
-                Факт 1 - Назва “тірамісу” з італійської означає “підніми мене вгору” — натяк на енергетичний ефект від
-                кави
-                й цукру.
-                Факт 2 - Десерт з’явився у регіоні Венето в Італії приблизно у 1960–1970-х роках.
-                Факт 3 - За однією з версій, його подавали як “афродизіак” у місцевих ресторанах.
-                Факт 4 - Оригінальний рецепт не містив вершків — лише сир маскарпоне, яйця і кава.
-            </p>
-            <button>CLICK!!! чтобы заказать нашу имбуличку❤️❤️❤️!!!</button>
-            <img src="./imges/imba.jpg" alt="teramisu">
 
+            <p>
+                Справжній італійський смак, ніжний крем та ароматна кава.
+                Dolce Boost створений для тих, хто любить солодке задоволення.
+            </p>
+
+            <button>Замовити зараз ❤️</button>
+
+            <img src="./imges/imba.jpg" alt="Тірамісу">
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
             <h2>Наша історія</h2>
+
             <p>
-                Ми створили “Dolce Boost”, щоб подарувати людям більше радості в кожному шматочку тірамісу.
-                Наші десерти народились з любові до кави, ніжного маскарпоне та справжніх італійських традицій.
+                Ми створили Dolce Boost, щоб подарувати людям більше радості
+                в кожному шматочку тірамісу.
             </p>
+
             <p>
-                Кожен продукт ми виготовляємо лише з натуральних інгредієнтів, без консервантів і барвників.
-                Атмосфера, яку ми створюємо, — це гармонія смаку, аромату й натхнення.
+                Наші десерти готуються лише з натуральних продуктів,
+                маскарпоне, кави та любові.
             </p>
         </section>
+
+        <section class="facts">
+            <h2>Цікаві факти</h2>
+
+            <p>• Назва тірамісу означає "підніми мене вгору"</p>
+            <p>• Десерт з’явився в Італії у 1960-х роках</p>
+            <p>• Оригінальний рецепт без вершків</p>
+            <p>• Один із найпопулярніших десертів світу</p>
+        </section>
+
         <section class="products">
             <h2>Наші продукти</h2>
+
             <article class="product">
-                <img src="./imges/tiramisu-classic.jpg" alt="Класичний тірамісу">
+                <img src="./imges/tiramisu-classic.jpg" alt="Classic">
                 <h3>Тірамісу Classic</h3>
-                <p>Ніжний десерт за оригінальним італійським рецептом із маскарпоне та еспресо.</p>
+                <p>Оригінальний рецепт з маскарпоне та еспресо.</p>
                 <span class="price">250 грн</span>
                 <button>До кошика</button>
             </article>
+
             <article class="product">
-                <img src="./imges/tiramisu-berry.jpg" alt="Тірамісу з ягодами">
+                <img src="./imges/tiramisu-berry.jpg" alt="Berry">
                 <h3>Berry Boost</h3>
-                <p>Тірамісу з малиновим соусом і нотками білого шоколаду — свіжа насолода.</p>
+                <p>Тірамісу з ягідним соусом та білим шоколадом.</p>
                 <span class="price">270 грн</span>
                 <button>До кошика</button>
             </article>
+
             <article class="product">
-                <img src="./imges/tiramisu-choco.jpg" alt="Шоколадний тірамісу">
+                <img src="./imges/tiramisu-choco.jpg" alt="Choco">
                 <h3>Choco Rush</h3>
-                <p>Для поціновувачів какао — глибокий шоколадний смак з енергетичним зарядом.</p>
+                <p>Насичений шоколадний смак для справжніх гурманів.</p>
                 <span class="price">260 грн</span>
                 <button>До кошика</button>
             </article>
         </section>
+
         <section class="process">
             <h2>Як ми працюємо</h2>
+
             <article class="step">
-                <h3>Крок 1: Оберіть</h3>
-                <p>Користувач переглядає каталог і обирає продукт.</p>
+                <h3>1. Обери</h3>
+                <p>Переглянь каталог та вибери десерт.</p>
             </article>
+
             <article class="step">
-                <h3>Крок 2: Замовте</h3>
-                <p>Додає в кошик та оформлює замовлення.</p>
+                <h3>2. Замов</h3>
+                <p>Додай у кошик та оформи замовлення.</p>
             </article>
+
             <article class="step">
-                <h3>Крок 3: Отримайте</h3>
+                <h3>3. Отримай</h3>
                 <p>Швидка доставка прямо до дверей.</p>
             </article>
         </section>
 
-        <section class="contact">
+        <section class="contact" id="contact">
             <h2>Contact Us</h2>
             <p>Маєш питання? Напиши нам!</p>
 
@@ -106,42 +140,49 @@
     </main>
 
     <footer>
-<footer>
-    <div class="footer-box">
-        <h3>Dolce Boost</h3>
-        <p>Солодкий десерт, що дарує настрій та енергію.</p>
 
-        <div class="socials">
-            <a href="#"><img src="./imges/youtube.png" alt="youtube"></a>
-            <a href="#"><img src="./imges/netflix.png" alt="netflix"></a>
-            <a href="#"><img src="./imges/tiktok.png" alt="tiktok"></a>
+        <div class="footer-box">
+            <h3>Dolce Boost</h3>
+            <p>Солодкий десерт, що дарує настрій та енергію.</p>
+
+            <div class="socials">
+                <a href="https://youtube.com" target="_blank">
+                    <img src="./imges/youtube.png" alt="youtube">
+                </a>
+
+                <a href="https://netflix.com" target="_blank">
+                    <img src="./imges/netflix.png" alt="netflix">
+                </a>
+
+                <a href="https://tiktok.com" target="_blank">
+                    <img src="./imges/tiktok.png" alt="tiktok">
+                </a>
+            </div>
         </div>
-    </div>
 
-    <div class="footer-box">
-        <h4>Menu</h4>
-        <p>Home</p>
-        <p>About Us</p>
-        <p>Products</p>
-        <p>Contact</p>
-    </div>
+        <div class="footer-box">
+            <h4>Menu</h4>
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Products</p>
+            <p>Contact</p>
+        </div>
 
-    <div class="footer-box">
-        <h4>Contacts</h4>
-        <p>📞 +380 99 123 45 67</p>
-        <p>📧 dolceboost@gmail.com</p>
-    </div>
+        <div class="footer-box">
+            <h4>Contacts</h4>
+            <p>📞 +380 99 123 45 67</p>
+            <p>📧 dolceboost@gmail.com</p>
+        </div>
 
-    <div class="footer-box">
-        <h4>Location</h4>
-        <p>📍 Київ, Україна</p>
-    </div>
+        <div class="footer-box">
+            <h4>Location</h4>
+            <p>📍 Київ, Україна</p>
+        </div>
 
-    <p class="copy">© 2026 Dolce Boost. All rights reserved.</p>
-</footer>
+        <p class="copy">© 2026 Dolce Boost. All rights reserved.</p>
+
     </footer>
 
-    </main>
 </body>
 
 </html>
