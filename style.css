@@ -53,53 +53,74 @@ nav a{
     height:25px;
 }
 
-.hero{
-    max-width:1200px;
-    margin:70px auto 120px;
-    padding:0 40px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:80px;
+.hero {
+    max-width: 1400px; 
+    margin: 80px auto;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
 }
 
-.hero-content{
-    max-width:520px;
+.hero-content {
+    max-width: 580px;
 }
 
-.hero-subtitle{
-    color:#9b9b9b;
-    font-size:14px;
-    margin-bottom:15px;
+.hero-subtitle {
+    color: #ffffff;
+    opacity: 0.8; 
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
 }
 
-.hero h1{
-    font-size:64px;
-    line-height:1;
-    margin-bottom:25px;
+.hero h1 {
+    color: #ffffff;
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
 }
 
-.hero-text{
-    color:#bdbdbd;
-    line-height:1.7;
-    margin-bottom:30px;
+.hero h1 span {
+    color: #ce316a; 
 }
 
-.hero button{
-    padding:14px 35px;
-    background:#ff2c78;
-    color:white;
-    border:none;
-    border-radius:8px;
-    cursor:pointer;
-    font-size:16px;
+.hero-text {
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+.hero button {
+    padding: 14px 35px;
+    background: #ce316a;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.2s ease;
 }
 
-.hero-image img{
-    width:500px;
-    border-radius:20px;
-    transform:rotate(-10deg);
-    filter:drop-shadow(0 0 30px rgba(255,255,255,0.15));
+.hero button:hover {
+    background: #b12555;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 620px; 
+    height: auto;
 }
 
 .about{
@@ -196,25 +217,119 @@ nav a{
     color:white;
 }
 
-.process{
-    max-width:1200px;
-    margin:120px auto;
-    padding:0 40px;
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
+.process {
+    max-width: 1200px;
+    margin: 120px auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 80px;
+    align-items: center;
+    background-color: #000000; 
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
 }
 
-.process h2{
-    grid-column:1/-1;
-    font-size:40px;
+.process-content {
+    display: flex;
+    flex-direction: column;
 }
 
-.step{
-    background:#151515;
-    padding:25px;
-    border-radius:15px;
-    margin-bottom:20px;
+.process h2 {
+    font-size: 54px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.process h2 span {
+    color: #ce316a;
+}
+
+.process-text {
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 45px;
+    max-width: 480px;
+}
+
+.process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.step-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.step-number {
+    width: 46px;
+    height: 46px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #ffffff;
+    opacity: 0.8;
+    background: #000000;
+    z-index: 2; 
+}
+
+.step-title {
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.step-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 23px; 
+    top: 46px;  
+    width: 1px;
+    height: 27px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+
+.process-apps {
+    display: flex;
+    gap: 15px;
+}
+
+.app-btn img {
+    height: 45px; 
+    display: block;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.app-btn:hover img {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+.process-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.process-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .contact{
