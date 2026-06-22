@@ -5,14 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dolce Boost</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <a href="index.html">
-            <img class="logo" src="./imges/logo.jpg" alt="logo">
+            <img class="logo" src="./imges/logo.png" alt="logo">
         </a>
 
         <nav>
@@ -21,26 +26,27 @@
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contacts</a></li>
             </ul>
-
-            <div class="nav-socials">
-                <a target="_blank" . href="https://youtube.com" target="_blank">
-                    <img href="https://www.youtube.com/watch?v=qVtDEaI1dl8" src="./imges/youtube.png" alt="youtube">
-                </a>
-
-                <a target="_blank" . href="https://netflix.com" target="_blank">
-                    <img href="https://www.netflix.com/nl/" src="./imges/netflix.png" alt="netflix">
-                </a>
-
-                <a target="_blank" . href="https://tiktok.com" target="_blank">
-                    <img href="https://www.tiktok.com/" src="./imges/tiktok.png" alt="tiktok">
-                </a>
-            </div>
         </nav>
+        <div class="nav-socials">
+            <a target="_blank" . href="https://youtube.com" target="_blank">
+                <img href="https://www.youtube.com/watch?v=qVtDEaI1dl8" src="./imges/youtube (1).png" alt="youtube">
+            </a>
+
+            <a target="_blank" . href="https://netflix.com" target="_blank">
+                <img href="https://www.netflix.com/nl/" src="./imges/netflix (1).png" alt="netflix">
+            </a>
+
+            <a target="_blank" . href="https://tiktok.com" target="_blank">
+                <img href="https://www.tiktok.com/" src="./imges/tik-tok (1).png" alt="tiktok">
+            </a>
+        </div>
+
     </header>
 
     <main>
 
         <section class="hero" id="home">
+            <div class="container">
             <div class="hero-content">
                 <p class="hero-subtitle">Відчуй справжній смак Італії з кожною ложечкою.</p>
 
@@ -57,6 +63,7 @@
             <div class="hero-image">
                 <img src="./imges/imba.jpg" alt="Тірамісу">
             </div>
+            </div>
         </section>
 
         <section class="about" id="about">
@@ -71,15 +78,6 @@
                 Наші десерти готуються лише з натуральних продуктів,
                 маскарпоне, кави та любові.
             </p>
-        </section>
-
-        <section class="facts">
-            <h2>Цікаві факти</h2>
-
-            <p>• Назва тірамісу означає "підніми мене вгору"</p>
-            <p>• Десерт з’явився в Італії у 1960-х роках</p>
-            <p>• Оригінальний рецепт без вершків</p>
-            <p>• Один із найпопулярніших десертів світу</p>
         </section>
 
         <section class="products">
@@ -111,43 +109,43 @@
         </section>
 
         <section class="process" id="process">
-    <div class="process-content">
-        <h2>Simple way <span>to order</span> your food</h2>
-        
-        <p class="process-text">
-            Some food has looked so awful that it's looked like something that the dog's brought home, 
-            yet after one mouthful I've been left eating my thoughts, my words.
-        </p>
+            <div class="process-content">
+                <h2>Simple way <span>to order</span> your food</h2>
 
-        <div class="process-steps">
-            <div class="step-item">
-                <div class="step-number">1</div>
-                <div class="step-title">Select Your Food</div>
-            </div>
-            <div class="step-item">
-                <div class="step-number">2</div>
-                <div class="step-title">Add To Cart</div>
-            </div>
-            <div class="step-item">
-                <div class="step-number">3</div>
-                <div class="step-title">Order Your Food</div>
-            </div>
-        </div>
+                <p class="process-text">
+                    Some food has looked so awful that it's looked like something that the dog's brought home,
+                    yet after one mouthful I've been left eating my thoughts, my words.
+                </p>
 
-        <div class="process-apps">
-            <a href="#" class="app-btn">
-                <img src="./imges/apple.png" alt="Download on the App Store">
-            </a>
-            <a href="#" class="app-btn">
-                <img src="./imges/googleplay.png" alt="Get it on Google Play">
-            </a>
-        </div>
-    </div>
+                <div class="process-steps">
+                    <div class="step-item">
+                        <div class="step-number">1</div>
+                        <div class="step-title">Select Your Food</div>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">2</div>
+                        <div class="step-title">Add To Cart</div>
+                    </div>
+                    <div class="step-item">
+                        <div class="step-number">3</div>
+                        <div class="step-title">Order Your Food</div>
+                    </div>
+                </div>
 
-    <div class="process-image">
-        <img src="./imges/new one.png" alt="Simple way to order your food">
-    </div>
-</section>
+                <div class="process-apps">
+                    <a href="#" class="app-btn">
+                        <img src="./imges/apple.png" alt="Download on the App Store">
+                    </a>
+                    <a href="#" class="app-btn">
+                        <img src="./imges/googleplay.png" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+
+            <div class="process-image">
+                <img src="./imges/new one.png" alt="Simple way to order your food">
+            </div>
+        </section>
 
         <section class="contact" id="contact">
             <h2>Contact Us</h2>

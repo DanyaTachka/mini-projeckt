@@ -35,7 +35,7 @@ nav{
 nav ul{
     display:flex;
     list-style:none;
-    gap:35px;
+    gap:95px;
 }
 
 nav a{
