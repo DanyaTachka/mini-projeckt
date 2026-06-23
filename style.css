@@ -20,7 +20,8 @@ header{
     justify-content:space-between;
     max-width: 1200px;
     align-items:center;
-    padding:20px 80px;
+    padding:20px 0px;
+    margin: 0 auto;
 }
 
 .logo{
@@ -118,7 +119,7 @@ nav a{
     background: #b12555;
 }
 
-.hero-image {
+.hero-container {
     display: flex;
     justify-content: center;
     align-items: center;
