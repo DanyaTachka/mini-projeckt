@@ -4,218 +4,602 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Dolce Boost</title>
+
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
 
-    <header>
+
+<header>
+    <div class="container header-container">
+
         <a href="index.html">
-            <img class="logo" src="./imges/logo.png" alt="logo">
+            <img class="logo" src="./imges/logo.png" alt="Dolce Boost logo">
         </a>
+
 
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
                 <li><a href="#contact">Contacts</a></li>
             </ul>
         </nav>
+
+
         <div class="nav-socials">
-            <a target="_blank" . href="https://youtube.com" target="_blank">
-                <img href="https://www.youtube.com/watch?v=qVtDEaI1dl8" src="./imges/youtube (1).png" alt="youtube">
+
+            <a href="https://youtube.com" target="_blank">
+                <img src="./imges/youtube (1).png" alt="YouTube">
             </a>
 
-            <a target="_blank" . href="https://netflix.com" target="_blank">
-                <img href="https://www.netflix.com/nl/" src="./imges/netflix (1).png" alt="netflix">
+            <a href="https://netflix.com" target="_blank">
+                <img src="./imges/netflix (1).png" alt="Netflix">
             </a>
 
-            <a target="_blank" . href="https://tiktok.com" target="_blank">
-                <img href="https://www.tiktok.com/" src="./imges/tik-tok (1).png" alt="tiktok">
+            <a href="https://tiktok.com" target="_blank">
+                <img src="./imges/tik-tok (1).png" alt="TikTok">
             </a>
-
-    </header>
-
-    <main>
-
-        <section class="hero" id="home">
-            <div class="hero-container container">
-                <div class="hero-content">
-                    <p class="hero-subtitle">Відчуй справжній смак Італії з кожною ложечкою.</p>
-
-                    <h1>Тірамісу — коли десерт стає <span>емоцією</span></h1>
-
-                    <p class="hero-text">
-                        Справжній італійський смак, ніжний крем та ароматна кава.
-                        Dolce Boost створений для тих, хто любить солодке задоволення.
-                    </p>
-
-                    <button>Замовити зараз ❤️</button>
-                </div>
-
-                <div class="hero-image">
-                    <img src="./imges/imba.jpg" alt="Тірамісу">
-                </div>
-            </div>
-        </section>
-
-        <section class="about" id="about">
-            <div class="about-container container">
-                <h2>Наша історія</h2>
-
-                <p>
-                    Ми створили Dolce Boost, щоб подарувати людям більше радості
-                    в кожному шматочку тірамісу.
-                </p>
-
-                <p>
-                    Наші десерти готуються лише з натуральних продуктів,
-                    маскарпоне, кави та любові.
-                </p>
-            </div>
-        </section>
-
-        <section class="products">
-            <div class="products-container container">
-                <h2>Наші продукти</h2>
-
-                <article class="product">
-                    <img src="./imges/tiramisu-classic.jpg" alt="Classic">
-                    <h3>Тірамісу Classic</h3>
-                    <p>Оригінальний рецепт з маскарпоне та еспресо.</p>
-                    <span class="price">250 грн</span>
-                    <button>До кошика</button>
-                </article>
-
-                <article class="product">
-                    <img src="./imges/tiramisu-berry.jpg" alt="Berry">
-                    <h3>Berry Boost</h3>
-                    <p>Тірамісу з ягідним соусом та білим шоколадом.</p>
-                    <span class="price">270 грн</span>
-                    <button>До кошика</button>
-                </article>
-
-                <article class="product">
-                    <img src="./imges/tiramisu-choco.jpg" alt="Choco">
-                    <h3>Choco Rush</h3>
-                    <p>Насичений шоколадний смак для справжніх гурманів.</p>
-                    <span class="price">260 грн</span>
-                    <button>До кошика</button>
-                </article>
-            </div>
-        </section>
-
-        <section class="process" id="process">
-            <div class="process-container container">
-                <div class="process-content">
-                    <h2>Simple way <span>to order</span> your food</h2>
-
-                    <p class="process-text">
-                        Some food has looked so awful that it's looked like something that the dog's brought home,
-                        yet after one mouthful I've been left eating my thoughts, my words.
-                    </p>
-
-                    <div class="process-steps">
-                        <div class="step-item">
-                            <div class="step-number">1</div>
-                            <div class="step-title">Select Your Food</div>
-                        </div>
-                        <div class="step-item">
-                            <div class="step-number">2</div>
-                            <div class="step-title">Add To Cart</div>
-                        </div>
-                        <div class="step-item">
-                            <div class="step-number">3</div>
-                            <div class="step-title">Order Your Food</div>
-                        </div>
-                    </div>
-
-                    <div class="process-apps">
-                        <a href="#" class="app-btn">
-                            <img src="./imges/apple.png" alt="Download on the App Store">
-                        </a>
-                        <a href="#" class="app-btn">
-                            <img src="./imges/googleplay.png" alt="Get it on Google Play">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="process-image">
-                    <img src="./imges/new one.png" alt="Simple way to order your food">
-                </div>
-            </div>
-
-        </section>
-
-        <section class="contact" id="contact">
-            <div class="contact-container container">
-                <h2>Contact Us</h2>
-                <p>Маєш питання? Напиши нам!</p>
-
-                <form>
-                    <input type="text" placeholder="Ваше ім'я" required>
-                    <input type="email" placeholder="Email" required>
-                    <textarea placeholder="Ваше повідомлення" required></textarea>
-                    <button type="submit">Надіслати</button>
-                </form>
-            </div>
-        </section>
-
-    </main>
-
-    <footer>
-        <div footer-container container>
-
-            <div class="footer-box">
-                <h3>Dolce Boost</h3>
-                <p>Солодкий десерт, що дарує настрій та енергію.</p>
-
-                <div class="socials">
-                    <a target="_blank" . href="https://youtube.com" target="_blank">
-                        <img href="https://www.youtube.com/watch?v=qVtDEaI1dl8" src="./imges/youtube.png" alt="youtube">
-                    </a>
-
-                    <a target="_blank" . href="https://netflix.com" target="_blank">
-                        <img href="https://www.netflix.com/nl/" src="./imges/netflix.png" alt="netflix">
-                    </a>
-
-                    <a target="_blank" . href="https://tiktok.com" target="_blank">
-                        <img href="https://www.tiktok.com/" src="./imges/tiktok.png" alt="tiktok">
-                    </a>
-                </div>
-            </div>
-
-            <div class="footer-box">
-                <h4>Menu</h4>
-                <p>Home</p>
-                <p>About Us</p>
-                <p>Products</p>
-                <p>Contact</p>
-            </div>
-
-            <div class="footer-box">
-                <h4>Contacts</h4>
-                <p>📞 +380 52 148 8 42 67</p>
-                <p>📧 dolceboost@gmail.com</p>
-            </div>
-
-
-            <div class="footer-box">
-                <h4>Location</h4>
-                <p>📍 Київ, Україна</p>
-            </div>
-
-            <p class="copy">© 2026 Dolce Boost. All rights reserved.</p>
 
         </div>
-    </footer>
+
+    </div>
+</header>
+
+
+
+<main>
+
+
+<section class="hero" id="home">
+
+    <div class="container hero-container">
+
+
+        <div class="hero-content">
+
+            <p class="hero-subtitle">
+                Відчуй справжній смак Італії з кожною ложечкою.
+            </p>
+
+
+            <h1>
+                Тірамісу — коли десерт стає 
+                <span>емоцією</span>
+            </h1>
+
+
+            <p class="hero-text">
+                Справжній італійський смак, ніжний крем та ароматна кава.
+                Dolce Boost створений для тих, хто любить солодке задоволення.
+            </p>
+
+
+            <button>
+                Замовити зараз ❤️
+            </button>
+
+
+        </div>
+
+
+
+        <div class="hero-image">
+
+            <img src="./imges/imba.jpg" alt="Тірамісу">
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+<section class="about" id="about">
+
+    <div class="container">
+
+
+        <h2>
+            Наша історія
+        </h2>
+
+
+        <p>
+            Ми створили Dolce Boost, щоб подарувати людям більше радості
+            в кожному шматочку тірамісу. Наші десерти готуються лише з
+            натуральних продуктів, маскарпоне, кави та любові.
+        </p>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+<section class="products" id="products">
+
+    <div class="container">
+
+
+        <h2>
+            Наші продукти
+        </h2>
+
+
+        <div class="products-list">
+
+
+            <article class="product">
+
+                <img src="./imges/tiramisu-classic.jpg" alt="Classic">
+
+                <h3>
+                    Тірамісу Classic
+                </h3>
+
+                <p>
+                    Оригінальний рецепт з маскарпоне та еспресо.
+                </p>
+
+                <span class="price">
+                    250 грн
+                </span>
+
+                <button>
+                    До кошика
+                </button>
+
+            </article>
+
+
+
+
+
+            <article class="product">
+
+                <img src="./imges/tiramisu-berry.jpg" alt="Berry">
+
+                <h3>
+                    Berry Boost
+                </h3>
+
+                <p>
+                    Тірамісу з ягідним соусом та білим шоколадом.
+                </p>
+
+                <span class="price">
+                    270 грн
+                </span>
+
+                <button>
+                    До кошика
+                </button>
+
+            </article>
+
+
+
+
+
+            <article class="product">
+
+                <img src="./imges/tiramisu-choco.jpg" alt="Choco">
+
+                <h3>
+                    Choco Rush
+                </h3>
+
+                <p>
+                    Насичений шоколадний смак для справжніх гурманів.
+                </p>
+
+                <span class="price">
+                    260 грн
+                </span>
+
+                <button>
+                    До кошика
+                </button>
+
+            </article>
+
+
+
+
+
+            <article class="product">
+
+                <img src="./imges/tiramisu-classic.jpg" alt="Special">
+
+                <h3>
+                    Dolce Special
+                </h3>
+
+                <p>
+                    Авторський десерт з ніжним кремом.
+                </p>
+
+                <span class="price">
+                    290 грн
+                </span>
+
+                <button>
+                    До кошика
+                </button>
+
+            </article>
+
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+<section class="process">
+
+    <div class="container process-container">
+
+
+        <div class="process-content">
+
+
+            <h2>
+                Simple way <span>to order</span> your food
+            </h2>
+
+
+            <p class="process-text">
+                Some food has looked so awful that it's looked like something
+                that the dog's brought home, yet after one mouthful I've been
+                left eating my thoughts, my words.
+            </p>
+
+
+
+            <div class="process-steps">
+
+
+                <div class="step-item">
+
+                    <div class="step-number">
+                        1
+                    </div>
+
+                    <div class="step-title">
+                        Select Your Food
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="step-item">
+
+                    <div class="step-number">
+                        2
+                    </div>
+
+                    <div class="step-title">
+                        Add To Cart
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="step-item">
+
+                    <div class="step-number">
+                        3
+                    </div>
+
+                    <div class="step-title">
+                        Order Your Food
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+            <div class="process-apps">
+
+
+                <a href="#" class="app-btn">
+
+                    <img src="./imges/apple.png" alt="App Store">
+
+                </a>
+
+
+
+                <a href="#" class="app-btn">
+
+                    <img src="./imges/googleplay.png" alt="Google Play">
+
+                </a>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+        <div class="process-image">
+
+
+            <img src="./imges/new one.png" alt="Order food">
+
+
+        </div>
+
+
+
+    </div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="contact" id="contact">
+
+
+    <div class="container contact-container">
+
+
+        <h2>
+            Contact Us
+        </h2>
+
+
+
+        <p>
+            Маєш питання? Напиши нам!
+        </p>
+
+
+
+        <form>
+
+
+            <input 
+            type="text" 
+            placeholder="Ваше ім'я"
+            required>
+
+
+
+            <input 
+            type="email"
+            placeholder="Email"
+            required>
+
+
+
+            <textarea 
+            placeholder="Ваше повідомлення"
+            required></textarea>
+
+
+
+            <button type="submit">
+                Надіслати
+            </button>
+
+
+        </form>
+
+
+    </div>
+
+
+</section>
+
+
+
+</main>
+
+
+
+
+
+
+
+<footer>
+
+
+<div class="container footer-container">
+
+
+
+    <div class="footer-box">
+
+
+        <h3>
+            Dolce Boost
+        </h3>
+
+
+        <p>
+            Солодкий десерт, що дарує настрій та енергію.
+        </p>
+
+
+
+        <div class="socials">
+
+
+            <a href="https://youtube.com" target="_blank">
+
+                <img src="./imges/youtube.png" alt="Youtube">
+
+            </a>
+
+
+
+            <a href="https://netflix.com" target="_blank">
+
+                <img src="./imges/netflix.png" alt="Netflix">
+
+            </a>
+
+
+
+            <a href="https://tiktok.com" target="_blank">
+
+                <img src="./imges/tiktok.png" alt="TikTok">
+
+            </a>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="footer-box">
+
+
+        <h4>
+            Menu
+        </h4>
+
+
+        <p>
+            Home
+        </p>
+
+
+        <p>
+            About Us
+        </p>
+
+
+        <p>
+            Products
+        </p>
+
+
+        <p>
+            Contact
+        </p>
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="footer-box">
+
+
+        <h4>
+            Contacts
+        </h4>
+
+
+        <p>
+            📞 +380 52 148 84 267
+        </p>
+
+
+        <p>
+            📧 dolceboost@gmail.com
+        </p>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer-box">
+
+
+        <h4>
+            Location
+        </h4>
+
+
+        <p>
+            📍 Київ, Україна
+        </p>
+
+
+    </div>
+
+
+
+
+
+    <p class="copy">
+        © 2026 Dolce Boost. All rights reserved.
+    </p>
+
+
+
+
+</div>
+
+
+
+</footer>
+
+
 
 </body>
 
